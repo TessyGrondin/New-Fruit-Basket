@@ -14,8 +14,6 @@ var numberOfFruits = 5;
 const fruitInitialSpeed = 1;
 var fruitPathColor;
 
-var leftArrow;
-
 // sound variables
 var soundCatchFruit; 
 var backgroundMusic; 
@@ -27,7 +25,6 @@ function preload() {
     basket = new Basket();
     
     basket.sprite = loadImage('assets/sprites/basket.png');
-    basket.left = loadImage('assets/sprites/left_arrow.png');
     
     soundCatchFruit = loadSound("assets/audio/pop.mp3"); 
     backgroundMusic = loadSound("assets/audio/ShanghaiActionLoop.mp3"); 
